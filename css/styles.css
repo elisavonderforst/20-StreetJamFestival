@@ -44,7 +44,7 @@ img {
 }
 
 p {
-  font-size: 16px;
+  font-size: 15px;
   margin: 25px 35px;
   font-weight: 400;
   font-style: normal;
@@ -54,9 +54,9 @@ p {
 .planning {
   background: #C95D34;
   padding: 10px 30px;
-  margin: 25px;
+  margin: 10px 35px;
   color: white;
-  font-size: 13px; 
+  font-size: 13px;
 }
 
 ul {
@@ -67,6 +67,10 @@ ul {
 
 strong {
   font-weight: 700;
+}
+
+p strong {
+  color: #C95D34;
 }
 
 h1,
@@ -94,7 +98,7 @@ h2 {
 h3 {
   color: #C95D34;
   font-size: 20px;
-  margin: 25px 35px;
+  margin: 10px 35px 20px;
 }
 
 .skate-title {
@@ -123,6 +127,24 @@ footer {
   padding-bottom: 280px;
 }
 
+.skate,
+.music {
+  margin-top: 50px;
+}
+
+.music {
+  margin-bottom: 60px;
+}
+
+.music .planning {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.music-img {
+  width: 75%;
+}
+
 .container-icon {
   margin: 10px 40px;
   padding: 20px 50px;
@@ -140,9 +162,18 @@ footer {
   border-top: 20px solid #C95D34;
 }
 
+.contact h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.contact p {
+  margin-top: 0;
+}
+
 hr {
   border: 3px solid #E3DD14;
-  width: 320px;
+  width: 299px;
   margin-left: -30px;
 }
 
@@ -150,5 +181,6 @@ hr {
   font-size: 8px;
   margin: 0;
 }
+
 
 
