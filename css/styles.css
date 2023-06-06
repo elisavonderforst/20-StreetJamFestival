@@ -1,7 +1,15 @@
+html {
+  scroll-behavior: smooth;
+  background: #efd7cd;
+  margin: 0;
+}
+
 body {
   max-width: 320px;
+  max-width: 375px;
   margin: auto;
-  background: #ddd;
+  background: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 img {
