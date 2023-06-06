@@ -173,6 +173,10 @@ footer {
 
 hr {
   border: 3px solid #E3DD14;
+  width: 80%;
+}
+
+.skate hr {
   width: 299px;
   margin-left: -30px;
 }
