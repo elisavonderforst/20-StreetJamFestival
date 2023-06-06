@@ -12,24 +12,25 @@
   </head>
 
   <body>
-    <header>
-      <img class="logo-streetjamfestival">
+    <header class="header-footer">
       <img class="logo-streetjamfestival" src="img/logo-streetjamfestival.svg">
       <p>
         le 10 octobre 2023
         <br>
         à Vevey
       </p>
-      <nav>
-        <a href="">Festival</a>
-        <a href="">Street Food</a>
-        <a href="">Contact</a>
+      <nav class="cta-ancre">
+        <a href="#festival">Festival</a>
+        <a href="#food">Street Food</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <main>
-      <div>
-        <h2>Street Jam Festival</h2>
+      <div id="festival" class="festival">
+        <div class="img-title">
           <img src="img/streetjamfestival.png">
+          <h2>Street Jam Festival</h2>
+        </div>
         <p>
           Le 15 octobre 2023, Vevey célèbre les tendances actuelles en matière 
           d'art urbain et de musique, et rassemble une communauté de personnes 
@@ -54,16 +55,21 @@
         </h3>
         <div class="planning">
           <ul>
-            <li class="planning-list">09h00-11h00: Sessions libres </li>
-            <li class="planning-list">10h00-12h00: Atelier de graffiti interactif 
-              avec XXX</li>
-            <li class="planning-list">13h30 – 17h00: Démonstration de Manos68 et 
-              sessions libres</li> 
+            <li class="planning-list">
+              <strong>09h00-11h00:</strong> Sessions libres
+            </li>
+            <li class="planning-list">
+              <strong>10h00-12h00:</strong> Atelier de graffiti interactif avec XXX
+            </li>
+            <li class="planning-list">
+              <strong>13h30 – 17h00:</strong>
+              Démonstration de Manos68 et sessions libres
+            </li> 
           </ul>
         </div>
         <p>
           Nous sommes ravis de présenter notre invité d'honneur pour 
-          le Street Jam Festival, le/la célèbre graffeur/graffeuse XXX. 
+          le <strong>Street Jam Festival</strong>, la célèbre graffeuse XXX. 
           Originaire de YYY, XXX a commencé à expérimenter avec les bombes 
           aérosols à l'âge de 14 ans et a depuis créé une réputation 
           internationale pour son style unique et expressif. Son travail est 
@@ -85,32 +91,38 @@
           processus créatif et de s'inspirer de son travail unique.
         </p>
         <img>
-        <div class="planning">
-          <h3>Skate</h3>
-          <ul>
-            <li class="planning-list">09h00-10h00: Inscriptions et accueil des 
-              participants</li>
-            <li class="planning-list">10h00-10h30: Démo de skateboard par des 
-              professionnels</li>
-            <li class="planning-list">10h30-11h30: Atelier d'initiation au 
-              skateboard pour les débutants</li>
-            <li class="planning-list">11h30-12h30: Session de skateboard libre 
-              pour les participants</li>
-            <li class="planning-list">12h30-13h30: Pause</li>
-            <li class="planning-list">13h30-14h00: Concours de skateboard 
-              "Meilleure figure" pour les participants</li>
-            <li class="planning-list">14h00-15h00: Session de skateboard libre 
-              pour les participants</li>
-            <li class="planning-list">15h00-15h30: Démo de skateboard par des 
-              professionnels</li>
-            <li class="planning-list">15h30-16h30: Atelier de skateboard 
-              "Street Style" pour les skateurs expérimentés</li>
-            <li class="planning-list">16h30-17h00: Remise des prix pour le 
-              concours "Meilleure figure"</li>
-            <li class="planning-list">17h00: Fin de la journée</li>  
-          </ul>
+        <div class="skate">
+          <img src="img/skate.png">
+          <div class="planning">
+            <h3 class="skate-title">Skate</h3>
+            <hr>
+            <ul>
+              <li class="planning-list"><strong>09h00-10h00:</strong>
+              Inscriptions et accueil des participants</li>
+              <li class="planning-list"><strong>10h00-10h30:</strong>
+              Démo de skateboard par des professionnels</li>
+              <li class="planning-list"><strong>10h30-11h30:</strong>
+              Atelier d'initiation au skateboard pour les débutants</li>
+              <li class="planning-list"><strong>11h30-12h30:</strong>
+              Session de skateboard libre pour les participants</li>
+              <li class="planning-list"><strong>12h30-13h30:</strong>
+              Pause</li>
+              <li class="planning-list"><strong>13h30-14h00:</strong>
+              Concours de skateboard "Meilleure figure" pour les participants</li>
+              <li class="planning-list"><strong>14h00-15h00:</strong>
+              Session de skateboard libre pour les participants</li>
+              <li class="planning-list"><strong>15h00-15h30:</strong>
+              Démo de skateboard par des professionnels</li>
+              <li class="planning-list"><strong>15h30-16h30:</strong>
+              Atelier de skateboard "Street Style" pour les skateurs expérimentés</li>
+              <li class="planning-list"><strong>16h30-17h00:</strong>
+              Remise des prix pour le concours "Meilleure figure"</li>
+              <li class="planning-list"><strong>17h00:</strong>              
+              Fin de la journée</li>  
+            </ul>
+          </div> 
         </div>
-        <p>
+        <p class="skate-planning-text">
           Veuillez noter que les horaires sont donnés à titre indicatif et 
           peuvent être sujets à des changements. Les participants seront 
           informés des horaires définitifs lors de leur inscription 
@@ -119,63 +131,69 @@
         <h3>Musique</h3>
         <div class="planning">
           <ul>
-            <li class="planning-list">15h00-17h00: Atelier de musique urbaine 
+            <li class="planning-list"><strong>15h00-17h00:</strong> Atelier de musique urbaine 
               pour les amateurs de beatmaking et de rap </li>
-            <li class="planning-list">17h00-23h00: Concert de hip-hop avec des 
+            <li class="planning-list"><strong>17h00-23h00:</strong> Concert de hip-hop avec des 
               artistes locaux et nationaux </li>
-            <li class="planning-list">24h00: Fin de la journée</li>
+            <li class="planning-list"><strong>24h00:</strong> Fin de la journée
+            </li>
           </ul>
         </div>
       </div>
-      <div>
-        <h2>Street Food</h2>
+      <div id="food" class="food">
+        <div class="img-title">
+          <img src="img/food.png">
+          <h2>Street Food</h2>
+        </div>
         <p>
           Notre festival vous propose une variété de stands de restauration sur 
           place tout au long de la journée. Vous pourrez notamment découvrir:
         </p>
         <p class="streetfood-choice">
-          Oh my b!:
+          <strong>Oh my b!:</strong>
           <br>
           Un camion de restauration rapide proposant des 
           burgers artisanaux avec des ingrédients frais et locaux.
         </p>
         <p class="streetfood-choice">
-          Con cilantro wey:
+          <strong>Con cilantro wey:</strong>
           <br>
           Un stand proposant des tacos et des burritos à 
           la viande grillée ou végétarienne, accompagnés de guacamole, de salsa 
           et de sauces épicées.
         </p>
         <p class="streetfood-choice">
-          Frankie's Hot Dogs:
+          <strong>Frankie's Hot Dogs:</strong>
           <br>
           Un stand proposant des hot-dogs traditionnels, 
           avec une variété de garnitures et des frites fraîches et croustillantes.
         </p>
         <p class="streetfood-choice">
-          Poke Paradise:
+          <strong>Poke Paradise:</strong>
           <br>
           Un stand proposant des bols de poke hawaïen, avec du 
           poisson frais, du riz, des légumes, des fruits et des sauces savoureuses.
         </p>
         <p class="streetfood-choice">
-          La Bretagne ambulante:
+          <strong>La Bretagne ambulante:</strong>
           <br>
           Un stand proposant des crêpes et des gaufres 
           sucrées ou salées, avec une variété de garnitures comme des fruits 
           frais, du Nutella, du fromage, des œufs et des légumes.
         </p>
         <p class="streetfood-choice">
-          Smoothies Stop:
+          <strong>Smoothies Stop:</strong>
           <br>
           Un stand proposant des smoothies et des jus de 
           fruits frais, avec des mélanges de saveurs originales et saines pour 
           une pause rafraîchissante.
         </p>
       </div>
-      <div>
-        <h2>Contact</h2>
+      <div id="contact" class="contact">
+        <div class="img-title">
           <img src="img/contact.png">
+          <h2>Contact</h2>
+        </div>
         <h3>Lieux</h3>
         <p>
           Street Jam Festival
@@ -195,17 +213,20 @@
           <a href="https://www.youtube.com" target="_blank"><img src="img/youtube.svg"></a>
           <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.svg"></a>
       </nav>
+      <div class="header-footer">
+        <img class="logo-streetjamfestival" src="img/logo-streetjamfestival.svg">
+        <p>
+          le 10 octobre 2023
+          <br>
+          à Vevey
+        </p>
+        <nav class="cta-ancre">
+          <a href="#festival">Festival</a>
+          <a href="#food">Street Food</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div> 
       <img class="logo-streetjamfestival">
-      <p>
-        le 10 octobre 2023
-        <br>
-        à Vevey
-      </p>
-      <nav>
-        <a href="">Festival</a>
-        <a href="">Street Food</a>
-        <a href="">Contact</a>
-      </nav>
       <p class="copyright">
         © 2023 eikon Friboug Elisa von der Forst.
         <br>
