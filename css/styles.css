@@ -45,6 +45,13 @@ img {
   margin: 0 10px;
 }
 
+.cta-ancre a:active {
+  background: #E3DD14;
+  color: #000000;
+  border-radius: 3px;
+  padding: 3px;
+}
+
 .logo-streetjamfestival {
   width: 50%;
 }
