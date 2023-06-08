@@ -52,13 +52,6 @@ a {
   margin: 0 26px 0 0;
 }
 
-.cta-ancre a:active {
-  background: #E3DD14;
-  color: #000000;
-  border-radius: 3px;
-  padding: 3px;
-}
-
 .cta-ancre .cta-ancre-contact {
   margin-left: 10px;
   margin-right: 0;
