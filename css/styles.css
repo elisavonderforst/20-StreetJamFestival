@@ -20,8 +20,7 @@ img {
   flex-wrap: wrap;
   background: #C95D34;
   color: white;
-  padding-left: 15px;
-  padding-bottom: 10px;
+  padding: 0 15px 10px;
 }
 
 .cta-ancre {
@@ -33,7 +32,15 @@ img {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-left: 10px;
+  margin-left: 42px;
+  margin-right: 0;
+}
+
+h2,
+h3,
+a {
+  text-transform: uppercase;
+  font-family: "indivisible", sans-serif;
 }
 
 .cta-ancre a {
@@ -42,7 +49,7 @@ img {
   color: white;
   border-top: 3px solid #E3DD14;
   padding: 5px 0;
-  margin: 0 10px;
+  margin: 0 26px 0 0;
 }
 
 .cta-ancre a:active {
@@ -52,21 +59,49 @@ img {
   padding: 3px;
 }
 
+.cta-ancre .cta-ancre-contact {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
 .logo-streetjamfestival {
   width: 50%;
 }
 
+.img-title {
+  position: relative;
+  color: white;
+}
+  
+h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 35px;
+  margin: 0;
+  font-size: 27px;
+  color: white;
+}
+
 p {
-  font-size: 15px;
   margin: 25px 35px;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
 }
 
+.festival .introduction {
+  margin-bottom: 60px;
+}
+
+h3 {
+  color: #C95D34;
+  font-size: 20px;
+  margin: 10px 35px 4px;
+}
+
 .planning {
   background: #C95D34;
-  padding: 10px 30px;
+  padding: 10px 30px 17.5px;
   margin: 10px 35px;
   color: white;
   font-size: 13px;
@@ -90,41 +125,14 @@ p strong {
   color: #C95D34;
 }
 
-h1,
-h2,
-h3,
-a {
-  text-transform: uppercase;
-  font-family: "indivisible", sans-serif;
-}
-
-.img-title {
-  position: relative;
-  color: white;
-}
-  
-h2 {
-  position: absolute;
-  bottom: 10px;
-  left: 35px;
-  margin: 0;
-  font-size: 27px;
-  color: white;
-}
-
-h3 {
-  color: #C95D34;
-  font-size: 20px;
-  margin: 10px 35px 20px;
+.graffiti-elisa {
+  margin-bottom: 60px;
 }
 
 .skate-title {
   color: white;
   margin: 0;
-}
-
-footer {
-  background: #C95D34;
+  margin-top: 17.5px;
 }
 
 .skate-planning-text {
@@ -133,20 +141,20 @@ footer {
   border-bottom: 5px solid #E3DD14;
   color: white;
   padding: 30px;
-  margin: 0;
-  margin-top: -206px;
+  margin: -266px 0 60px;
 }
 
 .skate {
   background-image: url(../img/skate.png);
   background-repeat: no-repeat;
   background-position: 50%;
-  padding-bottom: 280px;
+  padding-bottom: 368px;
 }
 
 .skate hr {
   width: 299px;
   margin-left: -30px;
+  margin-bottom: 17.5px;
 }
 
 hr {
@@ -154,13 +162,9 @@ hr {
   width: 80%;
 }
 
-.skate,
-.music {
-  margin-top: 50px;
-}
-
 .music {
   margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .music .planning {
@@ -179,6 +183,7 @@ hr {
 .food,
 .contact {
   border-top: 20px solid #C95D34;
+  margin-bottom: 60px;
 }
 
 .contact h3 {
@@ -208,4 +213,8 @@ hr {
   color: white;
   text-align: justify;
   padding: 20px 90px;
+}
+
+footer {
+  background: #C95D34;
 }
